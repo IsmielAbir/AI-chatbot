@@ -52,7 +52,10 @@ def response(intents_list, intents_json):
 print("Bot is running")
 
 while True:
-    message = input("")
-    ints = predict(message)
-    res = response(ints, intents)
-    print(res)
+    try:
+        message = input("")
+        ints = predict(message)
+        res = response(ints, intents)
+        print(res)
+    except:
+        print("I'm still learning!! Tell me something else")
