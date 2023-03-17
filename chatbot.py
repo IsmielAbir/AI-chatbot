@@ -57,5 +57,6 @@ while True:
         ints = predict(message)
         res = response(ints, intents)
         print(res)
+        print("\nNext Question: ")
     except:
         print("I'm still learning!! Tell me something else")

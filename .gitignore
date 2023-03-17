@@ -1,2 +1,4 @@
-classes.pkl
-words.pkl
+*.pkl
+*.h5
+*.pb
+*.pyc
